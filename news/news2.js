@@ -40,12 +40,10 @@ $(".search>input").focus();
             if(!arr.includes(values)){
                 search += "," + values;
                 localStorage.history = search;
-                arr.shift();
             }
         }else {
             search += "," + values;
             localStorage.history = search;
-            arr.shift();
 
         }
         $.ajax({
