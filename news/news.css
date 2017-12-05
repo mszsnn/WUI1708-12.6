@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 16px;
+}
+section.search{
+    width:100%;
+    height: 0.5rem;
+    background: palevioletred;
+    overflow: hidden;
+}
+section.search > input{
+    width: 79%;
+    height: 0.35rem;
+    border-radius: 0.2rem;
+    display: block;
+    margin: 0.07rem 0.2rem;
+    border: 0.01rem;
+    padding-left: 0.15rem;
+    outline: none;
+}
+#wrapper{
+    width: 100%;
+    height: 0.5rem;
+    overflow: hidden;
+    line-height: 0.5rem;
+}
+#scroller{
+    width:8.5rem;
+    height:100%;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    text-outline: none;
+}
+#scroller > ul > li{
+    width: 0.6rem;
+    height: 100%;
+    text-align: center;
+    float: left;
+    color: #212121;
+}
+#scroller > ul>.active{
+    color: #04569A;
+}
+.content{
+    width:100%;
+    height: auto;
+}
+.content .list{
+    width:95%;
+    margin: 0 auto;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    padding: 0.1rem 0;
+
+}
+.content .list a{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding: 0.05rem;
+    line-height: 0.28rem;
+    color: #000;
+    text-decoration: none;
+}
+.left{
+    width: 40%;
+    height: 0.78rem;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.left img{
+    width: 90%;
+
+}
+.con{
+    width: 60%;
+    /*padding: 0.1rem;*/
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap:wrap;
+    align-content:space-between;
+    justify-content:space-between;
+    text-align:justify;
+    line-height: 0.28rem;
+}
+i{
+    font-size: 0.12rem;
+    color: #666;
+}
+#gd{
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+}
+#add{
+    width:100%;
+    height: 0.34rem;
+    line-height: 0.34rem;
+    text-align: center;
+}
+#fh{
+    float: left;
+    width: 0.3rem;
+    height:80%;
+    font-size: 0.3rem;
+    font-family: '宋体';
+    font-weight: bold;
+    color: #fff;
+    padding-left: 0.15rem;
+    padding-top: 0.07rem;
+}
